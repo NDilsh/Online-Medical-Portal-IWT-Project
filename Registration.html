@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Sign up </title>
+	<link rel="stylesheet" href="styles/suwasetha.css" >
+	<link rel="stylesheet" href="styles/register.css">
+	<script src="js/reg.js"></script>
+</head>
+<body>
+<div id="grad1">
+<center>
+<img src="images/logo.png" width="150px" height="150px" >
+<h1>Suwasetha Online Medical Portal</h1>
+</center>
+<div align="right">
+<select>
+	<option> Sinhala </option>
+	<option> English </option>
+</select>
+</div>
+</div>
+<hr>
+	<ul id="list">
+		<li id="li"> <a href="Index.html"> Home </a></li>
+		<li id="li"> <a href="Registration.html"> Sign up </a></li>
+		<li id="li"> <a href="login.html"> Sign in </a></li>
+		<li id="li"> <a href="profile.html"> Profile </a></li>	
+		<li id="li"> <a href="doc_detailes.html"> Doctor Details </a></li>
+		<li id="li"> <a href="appointment.html"> My Appointments </a></li>
+		<li id="li"> <a href="payment.html"> Payments </a></li>
+		<li id="li"> <a href="contract_us.html"> Contact us </a></li>
+		
+	</ul>
+<hr>
+<br><br>
+
+<div align="center">
+		
+		<form action="AddRegistration.php" target="_self" method="POST" onsubmit="return checkPassword()">
+		 <fieldset id="field">
+			<legend id="leg"><h2>REGISTER WITH US</h2></legend>
+		
+			<label for="title" id="font">Title:</label>
+			<select name="title" style="width:100px;height:30px;font-size:20px">
+				<option value="Mr">Mr</option>
+				<option value="Mrs">Mrs</option>
+				<option value="Ms">Ms</option>
+				<option value="Prof">Prof</option>
+				<option value="Rev">Rev</option>
+				<option value="Dr">Dr</option>
+			</select><br></br>
+			<label for="fname" id="font">First Name:</lable><br>
+			<input type="text" class="test" id="fname" name="fname" placeholder="Enter your first name here" required><br></br>
+			<label for="lname">Last Name:</label><br>
+			<input type="text" class="test" id="lname" name="lname" placeholder="Enter your last name here" required><br></br>
+			
+			<label for="gender">Gender:</label><br>
+			<input type="radio" id="male" name="gender" value="male" required>
+			<label for="male">Male</label>
+			<input type="radio" id="female" name="gender" value="female">
+			<label for="female">Female</label><br></br>
+			
+			<label for="phone">Mobile Number:</label><br>
+			<input type="tel" class="test" id="phone" name="phone" pattern="[0-9]{10}" placeholder="Enter your mobile number here" required><br></br>
+			
+			<label for="nic">NIC:</label><br>
+			<input type="text" class="test" id="nic" name="nic" placeholder="Enter your NIC number here"><br></br>
+			
+			<label for="email">E-mail Address:</label><br>
+			<input type="email" class="test" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9]+\.[a-z]{2,3}" placeholder="Enter your e-mail here"required><br></br>
+			
+			<label for="address">Address:</label><br>
+			<textarea id="address" class="address" name="address" rows="4" cols="50" placeholder="Enter your address here" required></textarea><br></br>
+			
+			<label for="dob">Date Of Birth:</label>
+			<input type="date" class="test" id="dob" name="dob"><br></br>
+			
+			<label for="uname" id="font">Preferred User Name:</lable><br>
+			<input type="text" class="test" id="uname" name="uname" placeholder="Enter a preferred user name here" required><br></br>
+			
+			<label for="pwd">Password:</label><br>
+			<input type="password" class="test" id="pwd" name="pwd" pattern="[a-zA-Z0-9]{6,20}"placeholder="Must have at least 6 characters" required><br></br>
+			
+			<label for="rpwd">Re-Enter Password:</label><br>
+			<input type="password" class="test" id="rpwd" name="rpwd" placeholder="Enter your password again" required><br></br>
+			
+			<label for="policy">Accept privacy policy and terms</label>
+			<input type="checkbox" class="tik" id="policy" name="policy" required onclick="enableButton()"><br></br>
+			<center>	
+			<input type="submit" class="test" id="btn1" name="btn1" value="Sign Up" class="sub" disabled>
+			</center>
+		 </fieldset>
+		</form>
+</div>
+<br><br>
+<hr>
+<table border=0px style="width:100%">
+<tr> 
+	<td><img src="images/logo.png" width="150px" height="150px"></td>
+	<td class="text1"><center><b> Suwasetha Online Medical Portal <br> 312/1,Galle Road,Mathara. <br> Email -suwasetha@gmail.com <br>  Hotline - 077-6325641 </b></center></td>
+	<td><div align="right"> <img src="images/qr.png" width="150px" height="150px"> </div></td>
+</tr>
+</table>
+<center> Design by <a href="http://courseweb.sliit.lk/" target="self">IT20191788</a></center>
+</body>
+</html>

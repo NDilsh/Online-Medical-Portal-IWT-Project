@@ -1,0 +1,102 @@
+#list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: green;
+}
+
+#li {
+  float: left;
+}
+
+li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:15px;
+	text-decoration:none;
+	font-size:25px;
+		
+}
+
+li a:hover{
+	background-color:blue;
+}
+
+ #grad1 {
+  background-size:cover;
+  height: 250px;
+  background-image: url("../images_T/1.jpg");
+}
+
+body {
+  background-size:cover;
+  background-image: url("../images_T/3.jpg");
+}
+
+hr{
+  border: 1.5px solid Black;
+}
+
+.text1{
+	font-family:Arial;
+	font-size:25px;
+	
+}
+
+.leg {
+  background-color: #39FF5A;
+  color: black;
+  padding: 5px 10px;
+   font-family : impact;
+  font-size:50px;
+}
+
+.fieldset1 {
+  background-color: #DFFFE5;
+  width:50%;
+  height:280px;
+}
+
+.fieldset2 {
+  background-color: #DFFFE5;
+  width:60%;
+  height:370px;
+}
+
+.fieldset3{
+  background-color: #DFFFE5;
+  width:40%;
+  height:300px;
+}
+
+#amount{
+	text-align:center;
+	font-family: impact;
+	font-size:70px;
+}
+
+h1{
+	text-align:center;
+	font-size:35px;
+	font-family:impact;
+}
+
+.formtext{
+	width:400px;
+	background-color:white;
+}
+
+.card{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:300px;
+	height:160px;
+}
+
+.font1{
+	font-family:arial;
+	font-size:20px;
+}

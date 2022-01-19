@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Home </title>
+	<link rel="stylesheet" href="styles/suwasetha.css" >
+</head>
+<body>
+<div id="grad1">
+<center>
+<img src="images/logo.png" width="150px" height="150px" >
+<h1>Suwasetha Online Medical Portal</h1>
+</center>
+<div align="right">
+<select>
+	<option> Sinhala </option>
+	<option> English </option>
+</select>
+</div>
+</div>
+<hr>
+	<ul id="list">
+		<li id="li"> <a href="index.html"> Home </a></li>
+		<li id="li"> <a href="Registration.html"> Sign up </a></li>
+		<li id="li"> <a href="login.html"> Sign in </a></li>
+		<li id="li"> <a href="profile.html"> Profile </a></li>	
+		<li id="li"> <a href="doc_detailes.html"> Doctor Details </a></li>
+		<li id="li"> <a href="payment.html"> Payments </a></li>
+		<li id="li"> <a href="#"> Contact us </a></li>
+		
+	</ul>
+<hr>
+<br>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  margin-bottom: 17px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 13px 19px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2> Contact Us </h2>
+    <p>Contract Us If You Have Any Kind Of Problem Of Our Service</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="images/contract us main.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form method="post" action="contract.php">
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" name="firstname" placeholder="Enter Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Enter Your last name..">
+		<label for="mail">E-mail</label>
+        <input type="text" id="mail" name="email" placeholder="Enter Your E-mail ..">
+        <label for="Gender">Gender</label>
+        <select id="Gender" name="gender">
+          <option value="MALE">Male</option>
+          <option value="FEMALE">Female</option>
+          <option value="NOT_TO_SAY">Prefer Not To Say</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Type Here.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+<hr>
+<table border=0px style="width:100%">
+<tr> 
+	<td><img src="images/logo.png" width="150px" height="150px"></td>
+	<td class="text1"><center><b> Suwasetha Online Medical Portal <br> 312/1,Galle Road,Mathara. <br> Email -suwasetha@gmail.com <br>  Hotline - 077-6325641 </b></center></td>
+	<td><div align="right"> <img src="images/qr.png" width="150px" height="150px"> </div></td>
+</tr>
+</table>
+<center> Design by <a href="http://www.sliit.lk" target="self">SLIIT</a></center>
+</body>
+</html>

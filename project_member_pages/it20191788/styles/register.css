@@ -1,0 +1,45 @@
+#font {
+	font-size:20px;
+}
+.test {
+	width:300px;
+	height:30px;
+	font-size:20px;
+}
+.tik {
+	width:30px;
+	height:30px;
+}
+.address {
+	font-size:20px;
+}
+#btn1 {
+	display:block;
+	width: 100px;
+	height:50px;
+	cursor: pointer;
+	background-color: #008CBA;
+	color:white;
+	border-radius: 12px;
+	opacity: 1;
+	border-width:4px;
+	box-shadow: 0 0 10px #666;
+}
+#field {
+	background-image:url("../images/reg.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	border-color: #FF00FF;
+	border-width:3px;
+	width:700px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px #666;
+	padding-top:50px;
+}
+#leg {
+	background-color: #4CAF50;
+	color: white;
+	padding: 5px 10px;
+	box-shadow: 0 0 10px #666;
+	border-radius: 8px;
+}

@@ -1,0 +1,97 @@
+
+h1{
+	font-size:35px;
+	font-family:impact;
+}
+
+#list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: green;
+}
+
+#li {
+  float: left;
+}
+
+li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:15px;
+	text-decoration:none;
+	font-size:25px;
+		
+}
+
+li a:hover{
+	background-color:green;
+	color:black;
+}
+
+ #grad1 {
+  background-size:cover;
+  height: 250px;
+  background-image: url("../images/1.jpg");
+}
+
+body {
+  background-size:cover;
+  background-image: url("../images/3.png");
+}
+
+hr{
+  border: 1.5px solid Black;
+}
+
+.text1{
+	font-family:Arial;
+	font-size:25px;
+	color:black;
+	
+}
+
+
+	
+}
+.Login-form{
+	width:450px;
+	box-shadow:0 0 3px 0 rgba(0,0,0,0.3);
+	background: #fff;
+	padding:30px;
+	margin:8% auto:0;
+	text-align: center;
+
+}
+.Login-form h1{
+	color:black;
+	margin-bottom: 30px;
+	
+}
+
+.input box{
+	border-radius:20px;
+	padding:10px;
+	margin:10px 0;
+	width:100%;
+	border:1px solid #999;
+	outline:none;
+	
+}
+button{
+	color:blue;
+	width:50%;
+	padding:10px;
+	border-radius:10px;
+	margin:10px 0;
+	border:none;
+	outline:none;
+	cursor:pointer;
+	
+}
+.signup-btn{
+	background-color:#1c8adb;
+
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Delete Appointment </title>
+	<link rel="stylesheet" href="styles/suwasetha.css" >
+	<link rel="stylesheet" href="styles/register.css">
+	<link rel="stylesheet" href="styles/appointment.css">
+	<script src="js/myappointment.js"></script>
+</head>
+<body>
+<div id="grad1">
+<center>
+<img src="images/logo.png" width="150px" height="150px" >
+<h1>Suwasetha Online Medical Portal</h1>
+</center>
+<div align="right">
+<select>
+	<option> Sinhala </option>
+	<option> English </option>
+</select>
+</div>
+</div>
+<hr>
+	<ul id="list">
+		<li id="li"> <a href="index.html"> Home </a></li>
+		<li id="li"> <a href="Registration.html"> Sign up </a></li>
+		<li id="li"> <a href="login.html"> Sign in </a></li>
+		<li id="li"> <a href="profile.html"> Profile </a></li>	
+		<li id="li"> <a href="doc_detailes.html"> Doctor Details </a></li>
+		<li id="li"> <a href="appointment.html"> My Appointments </a></li>
+		<li id="li"> <a href="payment.html"> Payments </a></li>
+		<li id="li"> <a href="contract_us.html"> Contact us </a></li>
+		
+	</ul>
+<hr>
+<br><br><br><br><br>
+<div align="center">
+
+    <form action="Submitdeleteappoint.php" target="_self" method="POST" onsubmit="">
+	<fieldset id="field2">
+	<legend id="leg"><h2>Delete Appointment</h1></legend>
+			<label for="appid" id="font">Appointment ID:</label><br>
+			<input type="text" class="test" id="appid" name="appid" placeholder="Enter the appointment id"><br></br>
+	
+			
+		<center>
+			<input type="submit" class="test" id="btn1" name="btn1" value="Submit" class="search">
+		</center>
+		</fieldset>
+		</form>
+		 <p><i>*We will send you a confirmation E-mail</i></p>
+  </div>
+
+<br><br><br><br><br><br><br><br><br><br>
+<hr>
+<table border=0px style="width:100%">
+<tr> 
+	<td><img src="images/logo.png" width="150px" height="150px"></td>
+	<td class="text1"><center><b> Suwasetha Online Medical Portal <br> 312/1,Galle Road,Mathara. <br> Email -suwasetha@gmail.com <br>  Hotline - 077-6325641 </b></center></td>
+	<td><div align="right"> <img src="images/qr.png" width="150px" height="150px"> </div></td>
+</tr>
+</table>
+<center> Design by <a href="http://courseweb.sliit.lk/" target="self">IT20191788</a></center>
+</body>
+</html>

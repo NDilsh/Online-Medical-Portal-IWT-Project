@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Edit Appointment </title>
+	<link rel="stylesheet" href="styles/suwasetha.css" >
+	<link rel="stylesheet" href="styles/register.css">
+	<link rel="stylesheet" href="styles/appointment.css">
+	<script src="js/myappointment.js"></script>
+</head>
+<body>
+<div id="grad1">
+<center>
+<img src="images/logo.png" width="150px" height="150px" >
+<h1>Suwasetha Online Medical Portal</h1>
+</center>
+<div align="right">
+<select>
+	<option> Sinhala </option>
+	<option> English </option>
+</select>
+</div>
+</div>
+<hr>
+	<ul id="list">
+		<li id="li"> <a href="index.html.html"> Home </a></li>
+		<li id="li"> <a href="Registration.html"> Sign up </a></li>
+		<li id="li"> <a href="login.html"> Sign in </a></li>
+		<li id="li"> <a href="profile.html"> Profile </a></li>	
+		<li id="li"> <a href="doc_detailes.html"> Doctor Details </a></li>
+		<li id="li"> <a href="appointment.html"> My Appointments </a></li>
+		<li id="li"> <a href="payment.html"> Payments </a></li>
+		<li id="li"> <a href="contract_us.html"> Contact us </a></li>
+		
+	</ul>
+<hr>
+<br><br><br><br><br>
+<div align="center">
+
+    <form action="Submiteditappoint.php" target="_self" method="POST">
+	<fieldset id="field2">
+	<legend id="leg"><h2>Edit The Appointment</h1></legend>
+			<label for="appid" id="font">Appointment ID:</label><br>
+			<input type="text" class="test" id="appid" name="appid" placeholder="Enter the current appointment id"><br></br>
+	
+			<label for="pname" id="font">Patient Name:</lable><br>
+			<input type="text" class="test" id="pname" name="pname" placeholder="Enter the patient name"><br></br>
+		
+			<label for="dname" id="font">Doctor Name:</lable><br>
+			<input type="text" class="test" id="dname" name="dname" placeholder="Enter the doctor name"><br></br>
+		
+			<label for="specialty" id="font">Specialty:</label>
+				<select name="specialty" style="width:200px;height:30px;font-size:20px">
+					<option value="Specialty1">Select Specialty</option>
+					<option value="Audiologist">Audiologist</option>
+					<option value="Allergist">Allergist</option>
+					<option value="Anesthesiologist">Anesthesiologist</option>
+					<option value="Cardiologist">Cardiologist</option>
+					<option value="Dentist">Dentist</option>
+					<option value="Dermatologist">Dermatologist</option>
+					<option value="Endocrinologist">Endocrinologist</option>
+					<option value="Epidemiologist">Epidemiologist</option>
+					<option value="Gynecologist">Gynecologist</option>
+					<option value="Immunologist">Immunologist</option>
+					<option value="Infectious Disease Specialist">Infectious Disease Specialist</option>
+					<option value="Internal Medicine Specialist">Internal Medicine Specialist</option>
+					<option value="Medical Geneticist">Medical Geneticist</option>
+					<option value="Microbiologist">Microbiologist</option>
+					<option value="Neonatologist">Neonatologist</option>
+					<option value="Neurologist">Neurologist</option>
+					<option value="Neurosurgeon">Neurosurgeon</option>
+					<option value="Obstetrician">Obstetrician</option>
+					<option value="Oncologist">Oncologist</option>
+					<option value="Orthopedic Surgeon">Orthopedic Surgeon</option>
+					<option value="ENT Specialist">ENT Specialist</option>
+					<option value="Pediatrician">Pediatrician</option>
+					<option value="Physiologist">Physiologist</option>
+					<option value="Plastic Surgeon">Plastic Surgeon</option>
+					<option value="Podiatrist">Podiatrist</option>
+					<option value="Psychiatrist">Psychiatrist</option>
+					<option value="Radiologist">Radiologist</option>
+					<option value="Rheumatologist">Rheumatologist</option>
+					<option value="Surgeon">Surgeon</option>
+					<option value="Urologist">Urologist</option>
+				</select><br></br>
+			
+			<label for="pdate" id="font">Preferred Date:</label>
+			<input type="date" class="test" id="pdate" name="pdate"><br></br>
+			
+			<label for="ptime" id="font">Preferred Time:</label>
+			<input type="time" class="test" id="ptime" name="ptime"><br></br>
+		<center>
+			<input type="submit" class="test" id="btn1" name="btn1" value="Submit" class="search">
+		</center>
+		</fieldset>
+		</form>
+		 <p><i>*We will send you a confirmation E-mail with appointment Id</i></p>
+  </div>
+  
+<br><br><br><br><br><br><br><br>
+<hr>
+<table border=0px style="width:100%">
+<tr> 
+	<td><img src="images/logo.png" width="150px" height="150px"></td>
+	<td class="text1"><center><b> Suwasetha Online Medical Portal <br> 312/1,Galle Road,Mathara. <br> Email -suwasetha@gmail.com <br>  Hotline - 077-6325641 </b></center></td>
+	<td><div align="right"> <img src="images/qr.png" width="150px" height="150px"> </div></td>
+</tr>
+</table>
+<center> Design by <a href="http://courseweb.sliit.lk/" target="self">IT20191788</a></center>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Payment </title>
+	<script src="js/payment.js"> </script>
+	<link rel="stylesheet" href="styles/payment.css" >
+	
+</head>
+<body>
+<div id="grad1">
+<center>
+<img src="images_T/logo.png" width="150px" height="150px" >
+<h1>Suwasetha Online Medical Portal</h1>
+</center>
+<div align="right">
+<select>
+	<option> Sinhala </option>
+	<option> English </option>
+</select>
+</div>
+</div>
+<hr>
+
+	<ul id="list">
+		<li id="li"> <a href="index.html"> Home </a></li>
+		<li id="li"> <a href="Registration.html"> Sign up </a></li>
+		<li id="li"> <a href="login.html"> Sign in </a></li>
+		<li id="li"> <a href="profile.html"> Profile </a></li>	
+		<li id="li"> <a href="doctor_detailes.html"> Doctor Details </a></li>
+		<li id="li"> <a href="appointment.html"> My Appointments </a></li>
+		<li id="li"> <a href="payment.html"> Payments </a></li>
+		<li id="li"> <a href="contract_us.html"> Contact us </a></li>
+		
+	</ul>
+<hr>
+<br>
+<center>
+<fieldset class="fieldset1">
+<legend class="leg">Total Bill</legend>
+<p id="amount">Rs.500.00</p>
+</fieldset>
+</center>
+<br><br>
+<br>
+<center>
+<fieldset class="fieldset2"><legend>
+<table border="0px">
+<tr>
+<td> <img src="images_T/visa.png"> </td>
+<td> <img src="images_T/mastercard.png"></td>
+</tr>
+</table></legend>
+<div class="font1">
+<form  name="payform" target="_blank" method="POST" action="payment.php">
+Payment method :
+<select name="n0" required>
+<option selected value=""> -- </option>
+<option  value="visa"> Visa </option>
+<option  value="mastercard"> Master card </option>
+<option  value="paypal">paypal card </option>
+</select>
+<br><br>
+Card holder name : <input type="text" class="formtext" id="name" name="n1" required>
+<br><br>
+Credit card number : <input type="text" class="formtext" id="cnum" name="n2" required pattern="[0-9]{16}"> <button type="button" id='button1' onclick="popup('button1')">?</button>
+<br><br>
+Exp Month :
+<select name="n3">
+<option selected value=""> -- </option>
+<option value=01> January </option>
+<option value=02> February </option>
+<option value=03> March </option>
+<option value=04> April </option>
+<option value=05> May </option>
+<option value=06> June </option>
+<option value=07> July </option>
+<option value=08> August </option>
+<option value=09> Septhember </option>
+<option value=10> Octomber </option>
+<option value=11> November </option>
+<option value=12> December </option>
+</select>
+Exp Year :
+<select name="n4" required>
+<option selected value=""> -- </option>
+<option value=2020> 2020</option>
+<option value=2021> 2021 </option>
+<option value=2022> 2022 </option>
+<option value=2023> 2023 </option>
+<option value=2024> 2024 </option>
+<option value=2025> 2025 </option>
+</select> <button type="button" id='button2' onclick="popup('button2')">?</button>
+<br><br>
+CVV : <input type="text" id="cvv" name="n5" required pattern="[0-9]{3}"> <button type="button" id='button3' onclick="popup('button3')">?</button>
+<br><br>
+<input type="submit" value="Pay Now">
+<input type="reset" id="brn1" value="reset" onclick="res()">
+</div>
+</form>
+</fieldset>
+</center>
+<br>
+
+ <h1 id= "para"> </h1>
+ <img class="card" id="img" src="">
+<br><br>
+<hr>
+<table border=0px style="width:100%">
+<tr> 
+	<td><img src="images_T/logo.png" width="150px" height="150px"></td>
+	<td class="text1"><center><b> Suwasetha Online Medical Portal <br> 312/1,Galle Road,Mathara. <br> Email -suwasetha@gmail.com <br>  Hotline - 077-6325641 </b></center></td>
+	<td><div align="right"> <img src="images_T/qr.png" width="150px" height="150px"> </div></td>
+</tr>
+</table>
+<center> Design by <a href="http://www.sliit.lk" target="_blank">SLIIT</a></center>
+</body>
+</html>

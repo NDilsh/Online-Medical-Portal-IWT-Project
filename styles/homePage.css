@@ -1,0 +1,123 @@
+
+h1{
+	font-size:35px;
+	font-family:impact;
+}
+
+#list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: green;
+}
+
+#li {
+  float: left;
+}
+
+li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:15px;
+	text-decoration:none;
+	font-size:25px;
+		
+}
+
+li a:hover{
+	background-color:blue;
+}
+
+ #grad1 {
+  background-size:cover;
+  height: 250px;
+  background-image: url("../images_T/1.jpg");
+}
+
+body {
+  background-size:cover;
+  background-image: url("../images_T/3.jpg");
+}
+
+hr{
+  border: 1.5px solid Black;
+}
+
+.text1{
+	font-family:Arial;
+	font-size:25px;
+}
+
+.text2{
+	font-family:impact;
+	font-size:40px;
+}
+
+p{
+	font-family:Arial;
+	font-size:25px
+}
+
+button {
+
+  width:440px;
+  padding-bottom:50px;
+  padding-left:25px;
+  padding-right:25px;
+  padding-top:300px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid green;
+  box-shadow: 0 9px #999;
+  border-radius: 15px;
+}
+button:hover {
+  background-color: green;
+  color: green;
+}
+
+.new{
+	width:200px;
+	height:70px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+legend {
+  background-color: gray;
+  color: black;
+  padding: 5px 10px;
+}
+
+fieldset {
+  background-color: #eeeeee;
+  width:50%;
+  height:500px;
+}
+
+.slider{
+	width:1500px;
+	height:300px;
+	background:url(../images_T/10.png);
+	margin:30px auto;
+	animation: slide 20s infinite;
+}
+
+@keyframes slide{
+	25%{
+		background-image:url(../images_T/15.png);
+	}
+	50%{
+		background-image:url(../images_T/12.png);
+	}
+	75%{
+		background-image:url(../images_T/13.png);
+	}
+	100%{
+		background-image:url(../images_T/14.png);
+	}
+}
+
